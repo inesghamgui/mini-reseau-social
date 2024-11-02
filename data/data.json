@@ -1,0 +1,13 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "content": "Ceci est le contenu du premier post.",
+            "image": "images/posts/post1_img.png",
+            "likes": 0,
+            "dislikes": 0,
+            "loves": 0,
+            "comments": []
+        }
+    ]
+}
