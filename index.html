@@ -17,6 +17,18 @@
     <main id="feed">
         <div class="container">
             <h2>Créer un nouveau post</h2>
+            <form id="new-post-form">
+                <textarea id="post-content" placeholder="Écrivez quelque chose..." required></textarea>
+                <label for="post-image">Téléchargez une image :</label>
+                <input type="file" id="post-image" accept="image/*" title="Téléchargez une image" />
+                <button type="submit">Publier</button>
+            </form>
+            <div id="posts-container"></div>
+        </div>
+
+        <div id="full-screen-image" class="hidden">
+            <span class="close" id="close-button" role="button" aria-label="Fermer l'image">✖</span>
+            <img id="image-display" src="" alt="Post Image" />
         </div>
     </main>
     <script type="module" src="js/posts.js"></script>
