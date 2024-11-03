@@ -9,5 +9,27 @@
             "loves": 0,
             "comments": []
         }
+    ],
+    "friends": [
+        {"name": "Jean Dupont", "avatar": "images/avatar/avatar1.png"},
+        {"name": "Marie Curie", "avatar": "images/avatar/avatar2.png"},
+        {"name": "Luc Martin", "avatar": "images/avatar/avatar1.png"},
+        {"name": "Alice Dupont", "avatar": "images/avatar/avatar2.png"},
+        {"name": "Bob Martin", "avatar": "images/avatar/avatar1.png"}
+    ],
+    "conversations": [
+        {
+            "participants": ["Alice Dupont", "Vous"],
+            "messages": [
+                {"sender": "Alice Dupont", "content": "Salut !", "timestamp": "2024-11-03 10:08"},
+                {"sender": "Vous", "content": "Bonjour Alice !", "timestamp": "2024-11-03 10:05"}
+            ]
+        },
+        {
+            "participants": ["Bob Martin", "Vous"],
+            "messages": [
+                {"sender": "Bob Martin", "content": "Comment ça va ?", "timestamp": "2024-11-03 10:13"}
+            ]
+        }
     ]
 }

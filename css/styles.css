@@ -212,3 +212,61 @@ button:hover {
     background: #0056b3;
     transform: scale(1.02);
 }
+
+/* ------------------------------------------ */
+/* --------- messages specific style--------- */
+/* ------------------------------------------ */
+
+select {
+    background: #fff;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;  
+}
+
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conversation img.avatar {
+    margin-right: 10px;
+}
+
+.conversation-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.message img.avatar {
+    margin-right: 10px;
+}
+
+.message-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message-info {
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

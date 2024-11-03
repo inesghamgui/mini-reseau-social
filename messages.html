@@ -16,6 +16,23 @@
     </header>
     <main class="container">
         <h2>Envoyer un message</h2>
+        <form id="message-form">
+            <label for="recipient">À :</label>
+            <select id="recipient" required>
+                <option value="">Choisissez un ami...</option>
+                <!-- Friends will be populated here by JavaScript -->
+            </select>
+
+            <label for="message-content">Message :</label>
+            <textarea id="message-content" placeholder="Écrivez votre message..." required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <h3>Conversations</h3>
+        <div id="conversations-list"></div>
+
+        <div id="message-details" class="message-details hidden"></div>
     </main>
     <script type="module" src="js/messages.js"></script>
 </body>
